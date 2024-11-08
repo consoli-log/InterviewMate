@@ -19,7 +19,7 @@ spring:
             scope: # kakao 개인 정보 동의 항목 설정의 ID 값
               - profile_nickname
               - profile_image
-#              - account_email
+              - account_email
             client-name: Kakao
           naver:
             client-id: ${NAVER_CLIENT_ID}
